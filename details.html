@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <!-- AOS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <!-- Glidejs -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          margin: 0;
+          font-family: Arial;
+        }
+        
+        .header {
+          text-align: center;
+          padding: 32px;
+        }
+        
+        .row {
+          display: -ms-flexbox; /* IE10 */
+          display: flex;
+          -ms-flex-wrap: wrap; /* IE10 */
+          flex-wrap: wrap;
+          padding: 0 4px;
+        }
+        
+        /* Create four equal columns that sits next to each other */
+        .column {
+          -ms-flex: 25%; /* IE10 */
+          flex: 25%;
+          max-width: 25%;
+          padding: 0 4px;
+        }
+        
+        .column img {
+          margin-top: 8px;
+          vertical-align: middle;
+          width: 100%;
+        }
+        
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 800px) {
+          .column {
+            -ms-flex: 50%;
+            flex: 50%;
+            max-width: 50%;
+          }
+        }
+        
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+          .column {
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+          }
+        }
+        </style>
+    <title>Petrochemical Engineer</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="home" class="header">
+      <!-- Navigation -->
+      <nav class="nav">
+        <div class="navigation container">
+          <div class="logo">
+            <h1>Petrochemical Engineer<span>.</span></h1>
+          </div>
+
+          <div class="menu">
+            <div class="top-nav">
+              <div class="logo">
+                <h1>Petrochemical Engineer<span>.</span></h1>
+              </div>
+              <div class="close">
+                <i class="fas fa-times"></i>
+              </div>
+            </div>
+
+            <ul class="nav-list">
+                <li class="nav-item">
+                  <a href="#home" class="nav-link scroll-link">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#about" class="nav-link scroll-link">About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#services" class="nav-link scroll-link">Services</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a href="#teams" class="nav-link scroll-link">Project</a>
+                </li>
+              </ul>
+          </div>
+
+          <div class="hamburger">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+      <!-- Hero -->
+      <div class="hero">
+        <h3>Hello, my name is</h3>
+        <h1>KWA Clovis D</h1>
+        <h4>And I'm a <span id="type1"></span></h4>
+        <a href="#skills">Learn more</a>
+      </div>
+
+      <img class="banner" src="./bg.png" alt="" />
+
+      <div class="icons">
+        <span><a href="https://www.facebook.com/profile.php?id=100008502393218"><i class="fab fa-facebook-f" ></i></a></span>
+        <span><a class="fab fa-instagram" href="https://www.instagram.com/cloviskwa/"></a></span>
+        <span><a class="fab fa-twitter" href="https://twitter.com/KwaClovis"></a></span>
+        <span><a class="fab fa-linkedin" href="https://www.linkedin.com/in/kwa-clovis-82048a133/"></a></span>
+      </div>
+    </header>
+    <hr class="divider">
+    <!-- Main -->
+ <!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="./profile3.jpg" class="thumbnail" style="width:100%">
+    <img src="./profile4.jpg" class="thumbnail" style="width:100%">
+    <img src="./profile5.jpg" class="thumbnail" style="width:100%">
+    <img src="./profile6.jpg" class="thumbnail" style="width:100%">
+    <img src="./profile7.jpg" class="thumbnail" style="width:100%">
+    <img src="./profile3.jpg" class="thumbnail" style="width:100%">
+    <img src="./profile6.jpg" class="thumbnail" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="./profile2.jpg" class="thumbnail" style="width:100%">
+    <img src="./profile7.jpg" class="thumbnail" style="width:100%">
+    <img src="./profile2.jpg" class="thumbnail" style="width:100%">
+    <img src="./profile6.jpg" class="thumbnail" style="width:100%">
+    <img src="./profile2.jpg" class="thumbnail" style="width:100%">
+    <img src="./profile3.jpg" class="thumbnail" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="./profile3.jpg" class="thumbnail" style="width:100%">
+    <img src="./profile4.jpg" class="thumbnail" style="width:100%">
+    <img src="./profile5.jpg" class="thumbnail" style="width:100%">
+    <img src="./profile6.jpg" class="thumbnail" style="width:100%">
+    <img src="./profile7.jpg" class="thumbnail" style="width:100%">
+    <img src="./profile2.jpg" class="thumbnail" style="width:100%">
+    <img src="./profile2.jpg" class="thumbnail" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="./profile2.jpg" class="thumbnail" style="width:100%">
+    <img src="./profile2.jpg" class="thumbnail" style="width:100%">
+    <img src="./profile2.jpg" class="thumbnail" style="width:100%">
+    <img src="./profile2.jpg" class="thumbnail" style="width:100%">
+    <img src="./profile2.jpg" class="thumbnail" style="width:100%">
+    <img src="./profile2.jpg" class="thumbnail" style="width:100%">
+  </div>
+</div>
+<hr class="divider">
+<footer>
+    <div class="main-content">
+      <div class="left box">
+        <h2 class="project-header">About</h2>
+        <div class="content">
+          <p>
+            I am a young entrepreneur with passion for academic research in chemical engineering.
+          I am the first child from a family of five and i believe i can achieve any goal i set for myself.
+          </p>
+          <div class="social">
+            <span><a href="https://www.facebook.com/profile.php?id=100008502393218"><i class="fab fa-facebook-f" ></i></a></span>
+            <span><a class="fab fa-instagram" href="https://www.instagram.com/cloviskwa/"></a></span>
+            <span><a class="fab fa-twitter" href="https://twitter.com/KwaClovis"></a></span>
+            <span><a class="fab fa-linkedin" href="https://www.linkedin.com/in/kwa-clovis-82048a133/"></a></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="center box">
+        <h2 class="project-header">Address</h2>
+        <div class="content">
+          <div class="place">
+            <span class="fas fa-map-marker-alt"></span>
+            <span class="text">Kerala, India</span>
+          </div>
+          <div class="phone">
+            <span class="fas fa-phone-alt"></span>
+            <span class="text">+91 9496303696</span>
+          </div>
+          <div class="email">
+            <span class="fas fa-envelope"></span>
+            <span class="text">kwaclovis@gmail.com</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="right box">
+        <h2>Contact</h2>
+        <div class="content">
+          <form action="#">
+            <div class="email">
+              <div class="text">Email *</div>
+              <input type="email" required>
+            </div>
+            <div class="msg">
+              <div class="text">Message *</div>
+              <textarea rows="2" cols="25" required></textarea>
+            </div>
+            <div class="btn">
+              <button type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <center>
+        <span class="credit">Created By <a href="#">kwadzeTech</a> | </span>
+        <span class="far fa-copyright"></span><span> 2020 All rights reserved.</span>
+      </center>
+    </div>
+  </footer>
+
+
+    <!-- AOS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Typeit -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js"></script>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <!-- Glidejs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <!-- Custom Script -->
+    <script src="index.js"></script>
+   
+  </body>
+</html>

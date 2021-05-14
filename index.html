@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <!-- AOS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <!-- Glidejs -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="home" class="header">
+      <!-- Navigation -->
+      <nav class="nav">
+        <div class="navigation container">
+          <div class="logo">
+            <h1>Petrochemical Engineer<span>.</span></h1>
+          </div>
+
+          <div class="menu">
+            <div class="top-nav">
+              <div class="logo">
+                <h1>Petrochemical Engineer<span>.</span></h1>
+              </div>
+              <div class="close">
+                <i class="fas fa-times"></i>
+              </div>
+            </div>
+
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#home" class="nav-link scroll-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link scroll-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#services" class="nav-link scroll-link">Services</a>
+              </li>
+              
+              <li class="nav-item">
+                <a href="#teams" class="nav-link scroll-link">Project</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hamburger">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+      <!-- Hero -->
+      <div class="hero">
+        <h3>Hello, my name is</h3>
+        <h1>KWA Clovis D</h1>
+        <h4>And I'm a <span id="type1"></span></h4>
+        <a href="#skills">Learn more</a>
+      </div>
+
+      <img class="banner" src="./bg.png" alt="" />
+
+      <div class="icons">
+        <span><a href="https://www.facebook.com/profile.php?id=100008502393218"><i class="fab fa-facebook-f" ></i></a></span>
+        <span><a class="fab fa-instagram" href="https://www.instagram.com/cloviskwa/"></a></span>
+        <span><a class="fab fa-twitter" href="https://twitter.com/KwaClovis"></a></span>
+        <span><a class="fab fa-linkedin" href="https://www.linkedin.com/in/kwa-clovis-82048a133/"></a></span>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <section class="section about" id="about">
+      <div class="title">
+        <h1 class="project-head">About me</h1>
+      </div>
+
+      <div class="about-center container">
+        <div class="left" data-aos="fade-right" data-aos-duration="2000">
+          <img src="./profile1.jpg" alt="" />
+        </div>
+        <div class="right" data-aos="fade-left" data-aos-duration="2000">
+          <h1 class="project-head">I'm Kwa, a <span id="type2"></span></h1>
+          <p>
+            I am a young entrepreneur with passion for academic research in chemical engineering.
+            I am the first child from a family of five and i believe i can achieve any goal i set for myself.
+            
+            
+          </p>
+          <a href="./Kwa's_CV.pdf" class="btn">Download CV</a>
+         
+        </div>
+      </div>
+    </section>
+ <!-- Teams -->
+ <section class="section theme" id="teams">
+  <div class="title">
+    <h1 class="project-header">My Cranfield Project proposal</h1>
+  </div>
+  <div class="title">
+    <p class="description" >
+      In a small town in Douala-cameroon called "boite de singe" very close to the Douala international airport,
+      toilet waste is being disposed of improperly. These wastes are collected from households by the means of sewage tankers
+      for the purpose of disposal and treatment but what happens is, these are disposed into an already filled pit causing to overflow
+      into neighbouring homes. In my opinion i think that if a biogas plant is setup in this area, it could serve as real time solution
+      to the improper sewage disposal as well as provide employment and energy to most homes in Douala at a cheaper rate.
+      Attached below are pictures taken in this region. click on any to view the gallery
+    </p>
+    <a href="./Kwa.mp4" class="btn">See Video</a>
+  </div>
+
+  <div class="teams-center container">
+    <div class="glide">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide">
+            <a href="details.html">
+            <div class="team">
+              <div class="img-cover">
+                <img src="./profile2.jpg" alt="" />
+              </div>
+              <h3>Improper  toilet sewage disposal</h3>
+              <p>
+                when it rains, the sewage is being washed into the neighbouring houses.
+              </p>
+            </div>
+          </a>
+          </li>
+          <li class="glide__slide">
+            <a href="details.html">
+            <div class="team">
+              <div class="img-cover">
+               
+                  <img src="./profile3.jpg" alt="" />
+               
+              </div>
+              <h3>Sewage channels</h3>
+              <p>
+                Improperly disposed sewage is channelled into nearby houses
+              </p>
+            </div>
+          </a>
+          </li>
+          <li class="glide__slide">
+            <a href="details.html">
+            <div class="team">
+              <div class="img-cover">
+                
+                <img src="./profile4.jpg" alt="" />
+              </div>
+              <h3>Sewage Tankers</h3>
+              <p>
+               Over 50 sewage tankers dispose of their waste here everyday
+              </p>
+            </div>
+          </a>
+          </li>
+          <li class="glide__slide">
+            <a href="details.html">
+            <div class="team">
+              <div class="img-cover">
+                <img src="./profile5.jpg" alt="" />
+              </div>
+              <h3>Depature of tankers</h3>
+              <p>
+                Tankers depart after disposing their wastes
+              </p>
+            </div>
+          </a>
+          </li>
+          <li class="glide__slide">
+            <a href="details.html">
+            <div class="team">
+              <div class="img-cover">
+                
+                <img src="./profile6.jpg" alt="" />
+              </div>
+              <h3>Sewage tanker</h3>
+              <p>
+                Some of the drivers even have the habit of resting here after dsiposing of their waste 
+                this is unhealthy as the waste contains toxic gases
+              </p>
+            </div>
+          </a>
+          </li>
+          <li class="glide__slide">
+            <div class="team">
+              <div class="img-cover">
+                <a href="details.html">
+                  <img src="./profile7.jpg" alt="" />
+                </a>
+                
+              </div>
+              <h3>Sewage overflows</h3>
+              <p>
+                The pits for disposing community are overfull
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div>
+    .
+  </div>
+</section>
+<hr class="divider">
+    <!-- Services -->
+    <section class="section theme" id="services">
+      <div class="title">
+        <h1 class="project-header" >My Services</h1>
+      </div>
+
+      <div class="services-center container">
+        <div class="service" data-aos="fade-down" data-aos-duration="2000">
+          <span><i class="fab fa-accusoft"></i></span>
+          <h2 class="project-header">Web Design</h2>
+          <p>
+            During my lockdown days in India, i learnt coding and wordpress  
+            on udemy, google courses and youtube. i have designed one corporate website for a law firm 
+            called <a href="https://www.dalawfirms.com" class="company">D & A Law Firm</a> and an ongoing website for a textile
+            company called <a href="http://www.authafrique.com" class="company">Auth'Afrique</a>
+          </p>
+        </div>
+
+        <div class="service" data-aos="fade-up" data-aos-duration="2000">
+          <span><i class="fas fa-chart-line"></i></span>
+          <h2 class="project-header">Digital Marketing</h2>
+          <p>
+            I equally do digital marketing services such as logo, letterheads, complementary cards,
+            SEO, email marketing.
+          </p>
+        </div>
+
+        <div class="service" data-aos="fade-down" data-aos-duration="2000">
+          <span><i class="fas fa-blender-phone"></i></span>
+          <h2 class="project-header">Petrochemicals</h2>
+          <p>
+            I have a dream for developing a biogas plant in Cameroon that will convert toilet wastes
+            into biogas. The biogas produced will then be bottled for commercialization. This project is explained 
+            on my justification for support for the Cranfield Professor's scholarship in Advanced Chemical Engineering.
+          </p>
+        
+        </div>
+      </div>
+    </section>
+<hr class="divider">
+    <footer>
+      <div class="main-content">
+        <div class="left box">
+          <h2 class="project-header">About</h2>
+          <div class="content">
+            <p>
+              I am a young entrepreneur with passion for academic research in chemical engineering.
+            I am the first child from a family of five and i believe i can achieve any goal i set for myself.
+            </p>
+            <div class="social">
+              <span><a href="https://www.facebook.com/profile.php?id=100008502393218"><i class="fab fa-facebook-f" ></i></a></span>
+              <span><a class="fab fa-instagram" href="https://www.instagram.com/cloviskwa/"></a></span>
+              <span><a class="fab fa-twitter" href="https://twitter.com/KwaClovis"></a></span>
+              <span><a class="fab fa-linkedin" href="https://www.linkedin.com/in/kwa-clovis-82048a133/"></a></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="center box">
+          <h2 class="project-header">Address</h2>
+          <div class="content">
+            <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text">Kerala, India</span>
+            </div>
+            <div class="phone">
+              <span class="fas fa-phone-alt"></span>
+              <span class="text">+91 9496303696</span>
+            </div>
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">kwaclovis@gmail.com</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="right box">
+          <h2>Contact</h2>
+          <div class="content">
+            <form action="#">
+              <div class="email">
+                <div class="text">Email *</div>
+                <input type="email" required>
+              </div>
+              <div class="msg">
+                <div class="text">Message *</div>
+                <textarea rows="2" cols="25" required></textarea>
+              </div>
+              <div class="btn">
+                <button type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <center>
+          <span class="credit">Created By <a href="#">kwadzeTech</a> | </span>
+          <span class="far fa-copyright"></span><span> 2020 All rights reserved.</span>
+        </center>
+      </div>
+    </footer>
+
+    <!-- AOS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Typeit -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js"></script>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <!-- Glidejs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <!-- Custom Script -->
+    <script src="index.js"></script>
+  </body>
+</html>
